@@ -1,0 +1,30 @@
+#game{
+    position: relative;
+}
+#ball{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    left: 48%;
+    top:2.75%
+}
+#rod1, #rod2{
+    height: 20px;
+    width: 200px;
+    position: fixed;
+    color: white;
+    left:42%;
+    text-align: center;
+    border-radius:25px;
+}
+#rod1{
+    background-color: red;
+    top:0%;
+}
+
+#rod2{
+    background-color: blue;
+    bottom: 0%;
+}
